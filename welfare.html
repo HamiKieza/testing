@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link href="assetsss/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assetsss/css/boxicon.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assetsss/css/templatemo.css">
+    <link href="known/bootstrap.min.css" rel="stylesheet" />
+    <link href="known/style.css" rel="stylesheet" />
+    <script defer src="known/app.js"></script>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-style.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+    <style>
+        /* Color Palette */
+        :root {
+            --primary-color: #5C6BC0; /* Soft Blue */
+            --secondary-color: #00bfae; /* Teal */
+            --accent-color: #FF4081; /* Pink */
+            --light-color: #F5F5F5; /* Light Gray */
+            --dark-color: #263238; /* Dark Gray */
+            --neutral-color: #E3F2FD; /* Light Blue */
+            --white-color: #FFFFFF;
+        }
+
+        /* Base Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--light-color);
+            margin: 0;
+            padding: 0;
+            color: var(--dark-color);
+        }
+
+        h1, h2, h3, h4 {
+            color: var(--primary-color);
+        }
+
+        /* Header Section */
+        .banner-wrapper {
+            background-color: var(--primary-color);
+            padding: 80px 0;
+        }
+
+        .banner-content h1 {
+            color: var(--white-color);
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        .banner-content h3 {
+            color: var(--accent-color);
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .banner-body {
+            color: var(--white-color);
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 60px 0;
+            background-color: var(--neutral-color);
+        }
+
+        .left-image img, .right-image img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .left-content, .right-content {
+            padding: 30px;
+            background-color: var(--white-color);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .left-content h4, .right-content h4 {
+            color: var(--primary-color);
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        .left-content p, .right-content p {
+            font-size: 1rem;
+            color: var(--dark-color);
+            line-height: 1.6;
+        }
+
+        .primary-button a {
+            background-color: var(--secondary-color);
+            color: var(--white-color);
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .primary-button a:hover {
+            background-color: var(--accent-color);
+        }
+
+        /* Hidden Class for Scroll Animation */
+        .hidden {
+            opacity: 0;
+            transform: none;
+        }
+
+        /* Fly-in animations */
+        @keyframes flyInLeft {
+            from {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes flyInRight {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes flyInBottom {
+            from {
+                transform: translateY(100%);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .fly-in-left {
+            animation: flyInLeft 1s ease-out;
+        }
+
+        .fly-in-right {
+            animation: flyInRight 1s ease-out;
+        }
+
+        .fly-in-bottom {
+            animation: flyInBottom 1s ease-out;
+        }
+    </style>
+
+    <title>About Us</title>
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <!-- Start Banner Hero -->
+    <div id="work_banner" class="banner-wrapper bg-light w-100 py-5">
+        <div class="banner-vertical-center-work container text-light d-flex justify-content-center align-items-center py-5 p-0">
+            <div class="banner-content col-lg-8 col-12 m-lg-auto text-center hidden">
+                <h1 class="banner-heading h2 display-3 pb-5 semi-bold-600">WELFARE</h1>
+                <h3 class="h4 pb-2 regular-400 fly-in-delay-1">Gombe Secondary School</h3>
+                <p class="banner-body pb-2 light-300">Some content here.</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Banner Hero -->
+
+    <!-- Left Image -->
+    <section class="left-image hidden">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="assetss/images/facility.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="right-content">
+                        <h4>FACILITIES</h4>
+                        <p>The students enjoy a beautiful and comfortable learning environment. The school takes great pride in the appearance of the School and developing state-of-the-art facilities to meet the needs of our students.</p>
+                        <div class="primary-button">
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Right Image -->
+    <section class="right-image hidden">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="left-content">
+                        <h4>LEARNING SYSTEMS</h4>
+                        <p>The Uganda curriculum has been designed to focus on researching, evaluating information, and other life skills. Students engage in activities such as reading, tasks, and experiments.</p>
+                        <div class="primary-button">
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="assetss/images/students.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Right Image (Meal Plan) -->
+    <section class="right-image hidden">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="left-content">
+                      <h4 style="color:blue;">MEAL PLAN</h4>
+                      <p style="color: darkgreen;">Uganda has introduced an impressive new Secondary Curriculum. Memorisation and regurgitation of dictated notes have gone. Researching and evaluating information and other life skills are at the fore. Schools have been sent free sample copies of attractive new course books and teacher guidance. Each topic begins with a group activity, such as reading text extracts or conducting a task or experiment. Students learn relevant subject knowledge from the teacher, from books, and on-line resources.</p>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <img src="assetsss/css/mosque.jpg" alt="">
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Left Image (Dormitories) -->
+  <section class="left-image hidden">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-6">
+                  <img src="assetss/images/facility.jpg" alt="">
+              </div>
+              <div class="col-md-6">
+                  <div class="right-content">
+                      <h4 style="color:blue;">DORMITORIES</h4>
+                      <p style="color: darkgreen;">The students enjoy a beautiful and comfortable learning environment. The school takes great pride in the appearance of the School and developing state-of-the-art facilities to meet the needs of our students. Above is the mega Nnamasole kisosonkole girls hostel under construction with its artistic impression. It will accommodate over 600 girls.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+   
+  <!-- Sidebar -->
+  <div id="sidebar" style="background-color: darkgreen;">
+
+    <div class="inner">
+
+      <section id="search" class="alt">
+        <form method="get" action="#">
+         <img src="assetss/images/students.jpg" alt="">
+      </section>
+      <!-- Menu -->
+      <nav id="menu">
+        <ul>
+          <li><a href="index.html">Homepage</a></li>
+          <li><a href="About.us.html"> About us </a></li>
+          <li><a href="shortcodes.html">Notices</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="smart.html"> smart</a></li>
+          </li>
+          <li>
+            <span class="opener">Others</span>
+            <ul>
+              <li><a href="application.form.html">Administration</a></li>
+              <li><a href="calendar.html">Calendar</a></li>
+                <li><a href="welfare.html">Welfare</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+            <ul>
+          <li><a href="https://www.google.com">External Link</a></li>
+        </ul>
+      </nav>
+
+      <!-- Featured Posts -->
+      <div class="featured-posts">
+        <div class="heading">
+          <h2>Featured Posts</h2>
+        </div>
+        <div class="owl-carousel owl-theme">
+          <a href="#">
+            <div class="featured-item">
+              <img src="assetss/images/ky.jpg" alt="featured one">
+              <p>knowledge is nothing without Allah.</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="featured-item">
+              <img src="assets/css/students.jpg" alt="featured two">
+              <p>To produce a religious well disciplined citizen.</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="featured-item">
+              <img src="assets/css/over view.jpg" alt="featured three">
+              <p>Balandiza kibaze</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright">Copyright &copy; 2019 Bad art
+        <br>Designed by <a rel="nofollow" href="https://www.facebook.com/templatemo">Bad Art</a></p>
+      </footer>
+
+
+      
+    </div>
+  </div>
+
+</div>
+
+    <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/transition.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+        // Intersection Observer to trigger animations on scroll
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.remove('hidden');
+                    // Add animation classes based on the section
+                    if (entry.target.classList.contains('left-image')) {
+                        entry.target.classList.add('fly-in-left');
+                    } else if (entry.target.classList.contains('right-image')) {
+                        entry.target.classList.add('fly-in-right');
+                    }
+                    observer.unobserve(entry.target); // Stop observing after animation
+                }
+            });
+        }, {
+            threshold: 0.5 // Trigger when 50% of the element is in view
+        });
+
+        // Observe all sections with hidden class
+        document.querySelectorAll('.hidden').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+
+</body>
+
+</html>

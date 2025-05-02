@@ -1,0 +1,187 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and Text */
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header Section */
+  #header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #header .logo a {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  /* Banner Section */
+  .main-banner {
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .main-banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+  }
+  
+  .main-banner .caption {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .main-banner h6 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  
+  .main-banner h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Recent Work Section */
+  .py-5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .recent-work-header h2 {
+    font-size: 36px;
+    color: red;
+  }
+  
+  .recent-work .card {
+    border: none;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .recent-work .card-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .recent-work .card-img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .recent-work .card-text {
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  .recent-work .card-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  /* Section for left image with text */
+  .left-image, .right-image {
+    padding: 50px 0;
+  }
+  
+  .left-image .right-content {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-image h4, .right-image h4 {
+    color: red;
+  }
+  
+  .left-image p, .right-image p {
+    color: darkgreen;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .primary-button a {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .primary-button a:hover {
+    background-color: darkred;
+    transition: 0.3s;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer .icons {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer .icons li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  footer .icons a {
+    color: white;
+    font-size: 20px;
+  }
+  
+  footer .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
