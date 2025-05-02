@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>School Application Form</h2>
+        <form id="applicationForm">
+            <!-- Page 1: Personal Information -->
+            <div class="form-page" id="page1">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <button type="button" onclick="nextPage(2)">Next</button>
+            </div>
+
+            <!-- Page 2: Academic Background -->
+            <div class="form-page" id="page2" style="display: none;">
+                <label for="schoolName">School Name:</label>
+                <input type="text" id="schoolName" name="schoolName" required>
+
+                <label for="gradeLevel">Grade Level:</label>
+                <input type="text" id="gradeLevel" name="gradeLevel" required>
+
+                <label for="gpa">GPA:</label>
+                <input type="text" id="gpa" name="gpa" required>
+
+                <label for="favoriteSubject">Favorite Subject:</label>
+                <input type="text" id="favoriteSubject" name="favoriteSubject" required>
+
+                <button type="button" onclick="nextPage(1)">Back</button>
+                <button type="button" onclick="nextPage(3)">Next</button>
+            </div>
+
+            <!-- Page 3: Extracurricular Activities -->
+            <div class="form-page" id="page3" style="display: none;">
+                <label for="activities">Activities:</label>
+                <input type="text" id="activities" name="activities" required>
+
+                <label for="hobbies">Hobbies:</label>
+                <input type="text" id="hobbies" name="hobbies" required>
+
+                <label for="volunteerWork">Volunteer Work:</label>
+                <input type="text" id="volunteerWork" name="volunteerWork" required>
+
+                <label for="awards">Awards:</label>
+                <input type="text" id="awards" name="awards" required>
+
+                <button type="button" onclick="nextPage(2)">Back</button>
+                <button type="button" onclick="nextPage(4)">Next</button>
+            </div>
+
+            <!-- Page 4: Attach File -->
+            <div class="form-page" id="page4" style="display: none;">
+                <label for="fileUpload">Attach File:</label>
+                <input type="file" id="fileUpload" name="fileUpload" required>
+
+                <button type="button" onclick="nextPage(3)">Back</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
