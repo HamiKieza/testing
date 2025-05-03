@@ -1,0 +1,201 @@
+/* GENERAL BODY STYLES */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* BANNER STYLES */
+#work_banner {
+    background: linear-gradient(to right, #00c6ff, #0072ff); /* Gradient from light blue to dark blue */
+    padding: 5rem 0;
+    text-align: center;
+    color: white;
+}
+
+.banner-heading {
+    color: #00bcd4; /* Cool cyan color */
+    font-weight: 600;
+}
+
+.banner-body {
+    color: black;
+}
+
+.logo-container img {
+    max-width: 150px;
+    margin-top: 1rem;
+}
+
+/* TEAM SECTION STYLES */
+.recent-work-header h2 {
+    color: #00796b; /* Deep teal */
+}
+
+.recent-work-content h3 {
+    color: #008080; /* Teal color */
+}
+
+.recent-work-content p {
+    color: #9c27b0; /* Violet */
+}
+
+.recent-work-img {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.recent-work-img:hover {
+    transform: scale(1.05);
+}
+
+.recent-work-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* BUTTON STYLES */
+button {
+    background-color: #00796b; /* Deep teal */
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #004d40; /* Darker shade of teal */
+}
+
+/* FOOTER STYLES */
+footer {
+    background-color: #0288d1; /* Blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* SIDEBAR STYLES */
+#sidebar {
+    background-color: #004d40; /* Dark teal */
+    color: white;
+    padding: 2rem;
+}
+
+#sidebar a {
+    color: white;
+
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+#sidebar a:hover {
+    background-color: #0288d1; /* Blue */
+    color: white;
+}
+
+/* SECTION STYLES */
+section {
+    padding: 5rem 0;
+}
+
+/* MAP STYLES */
+#map iframe {
+    border-radius: 10px;
+}
+
+/* ADDITIONAL TEXT STYLES */
+h1, h2 {
+    color: #00bcd4; /* Cool cyan */
+}
+
+h3 {
+    color: #00796b; /* Deep teal */
+}
+
+p {
+    color: #555; /* Light gray for general text */
+}
+
+/* IMPACT IMAGES STYLES */
+.problem-im-wrap {
+    position: relative;
+}
+
+.problem-im-text {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.problem-im-text h2 {
+    font-size: 2rem;
+}
+
+.problem-im-text p {
+    font-size: 1rem;
+    color: yellow;
+}
+
+/* FORM STYLES */
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form form button {
+    background-color: #00796b; /* Deep teal */
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form form button:hover {
+    background-color: #004d40; /* Dark teal */
+}
+
+/* HEADER STYLES */
+header {
+    background-color: #0288d1; /* Blue */
+    padding: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+    color: #00bcd4; /* Cyan on hover */
+}
