@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loading Screen</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      background-color: whitesmoke; /* Dark background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .loading-container {
+      text-align: center;
+    }
+
+    .loading-container img {
+      width: 100px;
+      height: auto;
+      animation: pulse 1.5s infinite ease-in-out;
+    }
+
+    .loading-text {
+      margin-top: 20px;
+      font-size: 18px;
+      color: rgb(5, 80, 5);
+    }
+    @keyframes pulse {
+      0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+      50% {
+        opacity: 0.6;
+        transform: scale(1.1);
+      }
+    }
+  </style>
+  <script>
+    // Redirect to another page after 10 seconds
+    setTimeout(() => {
+      window.location.href = "index.html"; // Change to your target page
+    }, 10000);
+  </script>
+</head>
+<body>
+  <div class="loading-container">
+    <img src="assetss/images/logo-removebg-preview.png" alt="Loading..." />
+    <div class="loading-text">Please wait........!</div>
+  </div>
+</body>
+</html>
